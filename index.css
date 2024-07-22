@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4.5rem 5rem;
+    padding: 3.5rem 5rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -26,6 +26,8 @@ p
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+
 
 #nav
 {
@@ -63,11 +65,17 @@ p
 
 .bouton
 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
     padding: 4px 7px;
     border-radius: 5px;
     background-color: #0A0204;
     color: white;
 }
+
+
+
 
 .top
 {
@@ -76,7 +84,6 @@ p
 
 .left
 {
-    background-color: red;
     height: 80vh;
     width:40%;
 }
@@ -85,7 +92,6 @@ p
 {
     display: flex;
     flex-direction: column;
-    background-color: green;
     height: 80vh;
     width: 60%;
     overflow: hidden;
@@ -111,4 +117,31 @@ h1
 #rectangle
 {
     margin: 2rem 0px 20px 45rem;
+}
+
+
+
+.ticket
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+#video
+{
+    height: 490px;
+    width: 871px;
+    background-color: black;
+}
+
+
+
+
+.caroussel
+{
+    height: 100vh;
+    background-color: green;
 }
