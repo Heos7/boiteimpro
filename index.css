@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 .header
 {
@@ -19,6 +19,12 @@ a
 ul
 {
     list-style-type: none;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 #nav
@@ -61,4 +67,48 @@ ul
     border-radius: 5px;
     background-color: #0A0204;
     color: white;
+}
+
+.top
+{
+    display: flex;
+}
+
+.left
+{
+    background-color: red;
+    height: 80vh;
+    width:40%;
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 80vh;
+    width: 60%;
+    overflow: hidden;
+    align-items: center;
+}
+
+h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin: 0;
+    padding: 5rem 1rem 0.5rem 1rem ;
+}
+
+.right p
+{
+    text-align: center;
+    margin: 0;
+    padding: 20px 70px 30px 70px;
+}
+
+#rectangle
+{
+    margin: 2rem 0px 20px 45rem;
 }
